@@ -41,3 +41,6 @@ Execute terraform show to check the created objects
 resource "null_resource" "resource1" {
     id = "5803928548104844612"
 }
+
+
+
