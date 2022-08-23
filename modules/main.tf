@@ -6,3 +6,5 @@ resource "null_resource" "resource1"{
         command = "echo ${var.test}"
     }
 }
+
+//test
