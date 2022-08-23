@@ -20,10 +20,3 @@ module "null" {
   source = "./modules"
   test = var.hello
 }
-
-
-
-module "null1" {
-  source = "./modules/module/module1"
-  test1 = var.hello
-}
