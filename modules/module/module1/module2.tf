@@ -1,5 +1,7 @@
 
-variable "test1" {}
+variable "test1" {
+default = "hello"
+}
 
 resource "null_resource" "resource2"{
     provisioner local-exec{
