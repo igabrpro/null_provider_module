@@ -25,5 +25,5 @@ module "null" {
 
 module "null1" {
   source = "./modules/module/module1"
-  test = var.hello
+  test1 = var.hello
 }
