@@ -17,7 +17,7 @@ variable "hello" {
 }
 
 module "null" {
-  source = "./module"
+  source = "./modules"
   test = var.hello
 }
 
