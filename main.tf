@@ -22,4 +22,8 @@ module "null" {
 }
 
 
-//test
+
+module "null1" {
+  source = "./modules/module/module1"
+  test = var.hello
+}
